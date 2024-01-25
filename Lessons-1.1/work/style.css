@@ -1,0 +1,22 @@
+.bx-1 {
+    width: 600px;
+    height: 200px;
+    background-color: red;
+}
+.bx-2 {
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+}
+
+.bx-3 {
+    width: 300px;
+    height: 400px;
+    background-color: #0037ff;
+}
+
+.bx-4 {
+    width: 100px;
+    height: 250px;
+    background-color: darkgrey;
+}
