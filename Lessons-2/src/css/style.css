@@ -1,7 +1,6 @@
-p {
-    color: #0037ff;
+body {
+    background-color: #FFE2B0
 }
-
-h1 {
-    color: red;
-}]
+header {
+    text-align: center;
+}
