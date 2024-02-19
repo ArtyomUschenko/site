@@ -13,11 +13,11 @@ ul {
     text-align: center;
     padding-left: 0;
 }
-/*a {*/
-/*    color: black;*/
-/*    text-decoration: none;*/
-/*    font-size: 18px;*/
-/*}*/
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
 div {
     background-color: green;
     margin: 30px 50px 50px 0px;
@@ -29,4 +29,16 @@ div {
     display: inline-block;
     margin: 50px 0px 50px 0px;
     width: 500px;
+}
+
+.boxx-1 {
+    background-color: #ff0026;
+    margin-bottom: 100px;
+
+}
+
+.boxx-2 {
+    background-color: #0037ff;
+    margin-top: 40px;
+
 }
