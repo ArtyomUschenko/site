@@ -1,44 +1,81 @@
-body {
-    background-color: #FFE2B0;
+
+* {
+    box-sizing: border-box;
 }
 
 header {
     text-align: center;
+    margin-bottom: 20px;
 }
-h1 {
-    font-size: 15px;
+
+body {
+    background-color: #FFE2B0;
 }
-ul {
-    list-style-type: none ;
-    text-align: center;
-    padding-left: 0;
+
+
+
+li {
+    list-style-type: none;
 }
 a {
     color: black;
     text-decoration: none;
     font-size: 18px;
 }
-div {
-    background-color: green;
-    margin: 30px 50px 50px 0px;
-    padding: 20px 40px 0px 0px;
-    border: 9px solid black;
-    width: 500px;
-}
-.test {
-    display: inline-block;
-    margin: 50px 0px 50px 0px;
-    width: 500px;
+a:hover {
+    color: red;
 }
 
-.boxx-1 {
-    background-color: #ff0026;
-    margin-bottom: 100px;
+
+ul {
+    text-align: center;
+    padding: 0px;
+}
+li {
+    display: inline;
+    margin-right: 100px;
+}
+li:last-child {
+    margin-right: 0px;
+}
+nav {
+    margin-bottom: 20px;
+}
+
+.secition-about {
+    height: 640px;
+    position: relative;
+    background: url(../img/01-Картинка-фона.jpg) center/cover no-repeat;
+}
+
+.secition-about__block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    padding-top: 15px;
+}
+
+.secition-about__border {
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding-top: 17px;
+    padding-left: 28px;
+    text-align: left;
+}
+
+.secition-about__title {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 9px;
 
 }
 
-.boxx-2 {
-    background-color: #0037ff;
-    margin-top: 40px;
-
+.secition-about__text {
+    font-size: 12px;
+    margin: 0;
 }
