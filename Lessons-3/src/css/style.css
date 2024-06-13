@@ -1,0 +1,1280 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of fonts size after orientation changes in iOS.
+ */
+/* line 11, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the fonts size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of fonts size in all browsers.
+ * 2. Correct the odd `em` fonts sizing in all browsers.
+ */
+/* line 64, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct fonts weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of fonts size in all browsers.
+ * 2. Correct the odd `em` fonts sizing in all browsers.
+ */
+/* line 105, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct fonts size in all browsers.
+ */
+/* line 116, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the fonts styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change fonts properties to `inherit` in Safari.
+ */
+/* line 308, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+/* line 4, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 21, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 24, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 27, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+/* line 37, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/resets.scss */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+/* line 42, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/resets.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 45, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/resets.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/* line 50, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 5, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratT";
+  src: url("../fonts/Montserrat-SemiBold.ttf");
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 25, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+html {
+  font-family: "MontserratT";
+  font-weight: normal;
+}
+
+/* line 33, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 38, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.main-section {
+  position: relative;
+  min-height: 800px;
+  background: #F0F0F0;
+  padding-top: 16px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+/* line 45, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+}
+
+/* line 51, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.main-section__logo {
+  width: 134px;
+}
+
+/* line 53, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 57, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.main-section__first-elipse {
+  position: absolute;
+  top: 129px;
+  right: 80px;
+}
+
+/* line 61, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.main-section__second-elipse {
+  position: absolute;
+  top: 650px;
+  right: -120px;
+}
+
+/* line 68, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 71, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 64px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 75, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 77, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.nav-menu__list-item a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 81, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 83, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 86, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.left-wrapper__rectangle-blue {
+  top: 150px;
+  left: -50px;
+  width: 565.95px;
+  height: 220px;
+  background: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 97, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  border-radius: 100px;
+  width: 618.43px;
+  height: 220px;
+  background: #F28B64;
+  position: absolute;
+  top: 160px;
+  left: -30px;
+  transform: rotate(-50.81deg);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+}
+
+/* line 108, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.left-wrapper__rectangle-gray {
+  position: absolute;
+  width: 608.97px;
+  height: 220px;
+  left: 10px;
+  top: 190px;
+  background: #E2E2E2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 120, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  z-index: 5;
+}
+
+/* line 126, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.right-wrapper__icons__item {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 129, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 131, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 135, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.icons {
+  display: inline-flex;
+  padding-right: 11px;
+}
+
+/* line 138, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5290EA;
+  border-radius: 100%;
+  margin-right: 17px;
+}
+
+/* line 147, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 149, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.icons__item i {
+  font-size: 21px;
+}
+
+/* line 151, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+  font-weight: bold;
+}
+
+/* line 155, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.title__hr {
+  width: 65px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  border: none;
+  border-top: 1px solid black;
+}
+
+/* line 163, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 165, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #F28B64;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 176, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.buttons__icon-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 179, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.buttons__icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 181, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.buttons__text {
+  font-size: 16px;
+}
+
+/* line 184, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.elipse {
+  width: 194px;
+  height: 194px;
+  border-radius: 150px;
+  background: linear-gradient(143.92deg, rgba(237, 123, 80, 0.5) 14.85%, rgba(72, 138, 234, 0.5) 53.25%, rgba(44, 44, 44, 0.5) 85.74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 192, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.elipse_dig {
+  width: 282px;
+  height: 282px;
+}
+
+/* line 195, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.elipse__subtract {
+  width: 129.33px;
+  height: 129.33px;
+  background: #F0F0F0;
+  border-radius: 150px;
+}
+
+/* line 200, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.elipse__subtract_big {
+  width: 188px;
+  height: 188px;
+}
+
+/* line 205, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section {
+  min-height: 700px;
+  overflow: hidden;
+}
+
+/* line 208, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section__container {
+  padding-top: 32px;
+  position: relative;
+}
+
+/* line 211, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section__title {
+  margin-bottom: 40px;
+}
+
+/* line 213, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section__cards_box {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+/* line 218, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section__cards-item {
+  margin-right: 30px;
+}
+
+/* line 220, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 222, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 226, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 228, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 233, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 364px;
+  left: -60px;
+  z-index: -1;
+}
+
+/* line 240, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.cards-item {
+  width: 360px;
+  height: 360px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+/* line 248, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.cards-item__img {
+  height: 335px;
+}
+
+/* line 250, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.cards-item__text {
+  width: 280px;
+  font-size: 36px;
+  text-align: center;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 144px;
+  right: -45px;
+  font-weight: bold;
+}
+
+/* line 260, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.cards-item_dark {
+  background: #E2E2E2;
+}
+
+/* line 262, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.cards-item_orange {
+  background: #F28B64;
+}
+
+/* line 264, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.cards-item_blue {
+  background: #5290EA;
+}
+
+/* line 268, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.icons-item {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 271, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.icons-item__img {
+  margin-right: 20px;
+  width: 80px;
+}
+
+/* line 274, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.icons-item__text {
+  font-size: 18px;
+}
+
+/* line 276, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.icons-item__text span {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* line 280, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #F0F0F0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* line 286, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 167px;
+  justify-content: space-between;
+  padding-top: 46px;
+}
+
+/* line 293, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 295, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 297, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.third-section__text {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+/* line 300, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+
+/* line 305, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -1;
+}
+
+/* line 310, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+/* line 316, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.title__ht_top {
+  bottom: 75px;
+}
+
+/* line 320, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  left: -250px;
+  bottom: 0px;
+}
+
+/* line 324, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 329, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  /* line 334, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 336, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .main-section {
+    min-height: 690px;
+  }
+  /* line 339, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .left-wrapper img {
+    width: 750px;
+  }
+  /* line 341, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 344, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 550px;
+    height: 200px;
+  }
+  /* line 347, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .left-wrapper__rectangle-gray {
+    width: 500px;
+    height: 200px;
+  }
+  /* line 350, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .right-wrapper {
+    right: 20px;
+  }
+  /* line 353, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .main-section__first-elipse {
+    right: 10px;
+  }
+  /* line 355, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 560px;
+  }
+  /* line 357, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .second-section {
+    min-height: 600px;
+  }
+  /* line 359, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .second-section__cards-box {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 362, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .cards-item {
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+  }
+  /* line 366, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .cards-item__img {
+    height: 270px;
+  }
+  /* line 368, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 30px;
+    top: 120px;
+  }
+  /* line 371, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .icons-item__img {
+    margin-right: 10px;
+  }
+  /* line 374, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .third-section__container {
+    padding-left: 40px;
+  }
+  /* line 376, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 386, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 389, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .left-wrapper img {
+    width: 550px;
+  }
+  /* line 391, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .left-wrapper__rectangle-blue {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 394, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .left-wrapper__rectangle-orange {
+    width: 410px;
+    height: 130px;
+  }
+  /* line 397, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .left-wrapper__rectangle-gray {
+    width: 380px;
+    height: 130px;
+  }
+  /* line 401, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .title {
+    font-size: 60px;
+  }
+  /* line 404, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .right-wrapper {
+    top: 75px;
+    width: 300px;
+  }
+  /* line 408, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .right-wrapper__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  /* line 412, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .right-wrapper__icon-btn img {
+    width: 40px;
+  }
+  /* line 414, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .right-wrapper__icon-btn p {
+    font-size: 96%;
+  }
+  /* line 418, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .buttons__main-btn {
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  /* line 423, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .elipse {
+    width: 150px;
+    height: 150px;
+  }
+  /* line 426, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .elipse__subtract {
+    width: 110px;
+    height: 110px;
+  }
+  /* line 429, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .elipse__subtract_big {
+    width: 170px;
+    height: 170px;
+  }
+  /* line 432, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .elipse_dig {
+    width: 250px;
+    height: 250px;
+  }
+  /* line 437, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .main-section {
+    min-height: 530px;
+    padding-bottom: 10px;
+  }
+  /* line 440, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .main-section__second-elipse {
+    top: 400px;
+  }
+  /* line 442, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .main-section__first-elipse {
+    top: 70px;
+  }
+  /* line 445, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .second-section {
+    min-height: 450px;
+  }
+  /* line 447, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .second-section__container {
+    padding-top: 0px;
+  }
+  /* line 449, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .second-section__title {
+    margin-bottom: 25px;
+  }
+  /* line 451, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .second-section__cards_box {
+    margin-bottom: 15px;
+  }
+  /* line 453, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .second-section__first-elipse {
+    right: -35px;
+  }
+  /* line 455, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .second-section__second-elipse {
+    top: 262px;
+    left: -35px;
+  }
+  /* line 460, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .title__ht_top {
+    bottom: 60px;
+  }
+  /* line 467, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .cards-item {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 10px;
+  }
+  /* line 471, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .cards-item__img {
+    height: 200px;
+  }
+  /* line 473, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .cards-item__text {
+    font-size: 22px;
+    right: -75px;
+    top: 92px;
+  }
+  /* line 478, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .icons-item__text {
+    font-size: 14px;
+  }
+  /* line 480, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .icons-item__text span {
+    font-size: 30px;
+  }
+  /* line 482, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .icons-item__img {
+    width: 50px;
+  }
+  /* line 486, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .third-wrapper__left-title {
+    display: none;
+  }
+  /* line 490, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .third-section {
+    min-height: 510px;
+  }
+  /* line 492, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .third-section__right-wrapper {
+    max-width: 601px;
+  }
+  /* line 494, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .third-section__container {
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  /* line 498, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .third-section__right-title {
+    margin-bottom: 10px;
+  }
+  /* line 502, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .footer__img {
+    width: 500px;
+  }
+  /* line 504, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  /* line 506, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .footer__container {
+    min-height: 210px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 517, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 519, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 50%;
+    height: 100vh;
+    background: #5290EA;
+    z-index: 20;
+    transition: 0.6s all;
+  }
+  /* line 528, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .nav-menu__list {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  /* line 533, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0px;
+    font-size: 20px;
+  }
+  /* line 537, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+    z-index: 20;
+  }
+  /* line 544, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 551, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0px;
+  }
+  /* line 554, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 556, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 558, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 560, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 562, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .nav-menu_active {
+    right: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 568, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-3/src/sass/style.sass */
+  .container {
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
