@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		".navbar-brand {\n  img {\n    width: 100px; } }\n.carousel-item {\n  position: relative;\n  img {\n    object-fit: cover;\n    height: 650px; } }\n.content {\n  position: absolute;\n  max-width: 800px;\n  left: 13%;\n  bottom: 20%;\n  right: 13%;\n  color: white;\n  z-index: 2; }\n.overlay {\n  background: black;\n  opacity: 0.4;\n  width: 100%;\n  height: 100%;\n  position: absolute; }\n\n.carousel-control-next {\n  img {\n    color: #E2E2E2;\n    width: 100px; } }\n.carousel-control-prev {\n  i {\n    color: #F28B64; } }\n.carousel {\n  margin-bottom: 50px; }\n\n"
+	],
+	"names": [],
+	"mappings": ";;AAAA,AACE,aADW,CACX,GAAG,CAAC;EACF,KAAK,EAAE,KAAK;CAAG;;;AACnB,AAAA,cAAc,CAAC;EACb,QAAQ,EAAE,QAAQ;CAGE;;;AAJtB,AAEE,cAFY,CAEZ,GAAG,CAAC;EACF,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,KAAK;CAAG;;;AACpB,AAAA,QAAQ,CAAC;EACP,QAAQ,EAAE,QAAQ;EAClB,SAAS,EAAE,KAAK;EAChB,IAAI,EAAE,GAAG;EACT,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,GAAG;EACV,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,CAAC;CAAG;;;AACf,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,GAAG;EACZ,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,QAAQ,EAAE,QAAQ;CAAG;;;AAEvB,AACE,sBADoB,CACpB,GAAG,CAAC;EACF,KAAK,EAAE,OAAO;EACd,KAAK,EAAE,KAAK;CAAG;;;AACnB,AACE,sBADoB,CACpB,CAAC,CAAC;EACA,KAAK,EAAE,OAAO;CAAG;;;AACrB,AAAA,SAAS,CAAC;EACR,aAAa,EAAE,IAAI;CAAG"
+}
