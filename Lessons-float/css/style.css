@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* line 1, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-float/SASS/style.sass */
+img {
+  width: 400px;
+}
+
+/* line 3, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-float/SASS/style.sass */
+.float-left {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  float: left;
+}
+
+/* line 8, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-float/SASS/style.sass */
+.clear {
+  clear: left;
+}
+
+/*# sourceMappingURL=style.css.map */
