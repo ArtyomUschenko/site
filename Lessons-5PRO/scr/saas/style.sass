@@ -1,3 +1,4 @@
+//Переменные
 $color-gray: #777777
 $color-brown-light: #BA8554
 $color-brown-darck: #A14F03
@@ -5,11 +6,18 @@ $color-black: #000000
 $color-white: #FAFAFA
 $box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3)
 
+//Миксины
 @mixin style-link($color)
   text-decoration: none
   color: $color
   text-transform: uppercase
   display: inline-block
+
+//Функции
+@function multiply($a, $b)
+  @return $a * $b
+
+
 
 //Шаблон
 //%button-style
@@ -52,6 +60,7 @@ body
   &__logo
     position: absolute
     left: 5rem
+    //left: multiply(25, 25) * 1px
     top: 5rem
     height: 7rem
     width: 5.6rem
