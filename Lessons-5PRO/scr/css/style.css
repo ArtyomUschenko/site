@@ -1,150 +1,3 @@
-@charset "UTF-8";
-/* line 26, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-*, ::after, ::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* line 31, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-html {
-  font-size: 62.5%;
-}
-
-/* line 34, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  color: #777777;
-  font-size: 1.6rem;
-  letter-spacing: .2rem;
-  padding: 5rem;
-  background-color: #FAFAFA;
-}
-
-/* line 43, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.container {
-  background-color: #F7F7F7;
-  height: 50rem;
-  width: 100%;
-}
-
-/* line 48, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.header {
-  height: 95vh;
-  background: linear-gradient(90.05deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(0, 0, 0, 0.7) 99.94%), url("../img/header-beckground.jpg") center/cover no-repeat;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
-  position: relative;
-}
-
-/* line 54, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.header__logo {
-  position: absolute;
-  left: 5rem;
-  top: 5rem;
-  height: 7rem;
-  width: 5.6rem;
-}
-
-/* line 61, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.header__box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-}
-
-/* line 68, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.title-first {
-  color: #FAFAFA;
-}
-
-/* line 70, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.title-first__main {
-  display: block;
-  letter-spacing: 1rem;
-  line-height: 6rem;
-  font-size: 5rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  animation-name: leftToRight;
-  animation-duration: 1.7s;
-  animation-delay: 1s;
-  animation-timing-function: ease;
-  backface-visibility: hidden;
-}
-
-/* line 83, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.title-first__secondary {
-  display: block;
-  line-height: 4.8rem;
-  font-size: 4rem;
-  font-weight: 100;
-  letter-spacing: 0.5rem;
-  animation-name: RightToLeft;
-  animation-duration: 1.7s;
-  animation-delay: 1s;
-  animation-timing-function: ease;
-  backface-visibility: hidden;
-  margin-bottom: 6.5rem;
-}
-
-/* line 96, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.btn:link, .btn:visited {
-  text-decoration: none;
-  color: #777777;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 1.5rem 4rem;
-  border-radius: 50px;
-  background: #FAFAFA;
-  transition: all .5s;
-  position: relative;
-  font-size: 2rem;
-}
-
-/* line 105, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.btn:link:hover, .btn:visited:hover {
-  transform: translateY(-0.4rem);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-}
-
-/* line 108, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.btn:link:hover::after, .btn:visited:hover::after {
-  opacity: 0;
-  transform: scaleX(1.5) scaleY(1.7);
-}
-
-/* line 111, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.btn:link:active, .btn:visited:active {
-  transform: translateY(-0.2rem);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-}
-
-/* line 114, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.btn::after {
-  content: "";
-  background: #FAFAFA;
-  width: 100%;
-  height: 100%;
-  border-radius: 5rem;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all .4s;
-}
-
-/* line 126, ../../WebstormProjects/Верстка_и_созд_веб_сайтов_2022/Lessons-5PRO/scr/saas/style.sass */
-.btn_animated {
-  animation: BtnToUp .5s ease-out .7s;
-  animation-fill-mode: backwards;
-}
-
 @keyframes BtnToUp {
   0% {
     opacity: 0;
@@ -182,6 +35,156 @@ body {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+/* line 1, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/base/_base.sass */
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 6, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/base/_base.sass */
+html {
+  font-size: 62.5%;
+}
+
+/* line 9, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/base/_base.sass */
+body {
+  padding: 5rem;
+  background-color: #FAFAFA;
+}
+
+/* line 13, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/base/_base.sass */
+.container {
+  background-color: #F7F7F7;
+  height: 50rem;
+  width: 100%;
+}
+
+/* line 1, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/base/_typography.sass */
+.title-first {
+  color: #FAFAFA;
+}
+
+/* line 3, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/base/_typography.sass */
+.title-first__main {
+  display: block;
+  letter-spacing: 1rem;
+  line-height: 6rem;
+  font-size: 5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  animation-name: leftToRight;
+  animation-duration: 1.7s;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  backface-visibility: hidden;
+}
+
+/* line 16, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/base/_typography.sass */
+.title-first__secondary {
+  display: block;
+  line-height: 4.8rem;
+  font-size: 4rem;
+  font-weight: 100;
+  letter-spacing: 0.5rem;
+  animation-name: RightToLeft;
+  animation-duration: 1.7s;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  backface-visibility: hidden;
+  margin-bottom: 6.5rem;
+}
+
+/* line 29, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/base/_typography.sass */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #777777;
+  font-size: 1.6rem;
+  letter-spacing: .2rem;
+}
+
+/* line 3, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/components/_button.sass */
+.btn:link, .btn:visited {
+  text-decoration: none;
+  color: #777777;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  border-radius: 50px;
+  background: #FAFAFA;
+  transition: all .5s;
+  position: relative;
+  font-size: 2rem;
+}
+
+/* line 12, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/components/_button.sass */
+.btn:link:hover, .btn:visited:hover {
+  transform: translateY(-0.4rem);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* line 15, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/components/_button.sass */
+.btn:link:hover::after, .btn:visited:hover::after {
+  opacity: 0;
+  transform: scaleX(1.5) scaleY(1.7);
+}
+
+/* line 18, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/components/_button.sass */
+.btn:link:active, .btn:visited:active {
+  transform: translateY(-0.2rem);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* line 21, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/components/_button.sass */
+.btn::after {
+  content: "";
+  background: #FAFAFA;
+  width: 100%;
+  height: 100%;
+  border-radius: 5rem;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+/* line 33, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/components/_button.sass */
+.btn_animated {
+  animation: BtnToUp .5s ease-out .7s;
+  animation-fill-mode: backwards;
+}
+
+/* line 1, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/layout/_header.sass */
+.header {
+  height: 95vh;
+  background: linear-gradient(90.05deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(0, 0, 0, 0.7) 99.94%), url("../img/header-beckground.jpg") center/cover no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  position: relative;
+}
+
+/* line 7, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/layout/_header.sass */
+.header__logo {
+  position: absolute;
+  left: 5rem;
+  top: 5rem;
+  height: 7rem;
+  width: 5.6rem;
+}
+
+/* line 14, ../../../../../Users/artyom/WebstormProjects/site/Lessons-5PRO/scr/saas/layout/_header.sass */
+.header__box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
