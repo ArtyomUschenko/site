@@ -1,3 +1,14 @@
+$color-gray: #777777
+$color-brown-light: #BA8554
+$color-brown-darck: #A14F03
+$color-black: #000000
+$color-white: #FAFAFA
+$box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3)
+
+
+
+
+
 *, ::after, ::before
   margin: 0
   padding: 0
@@ -9,11 +20,11 @@ html
 body
   font-family: "Roboto", sans-serif
   font-weight: 300
-  color: #777777
+  color: $color-gray
   font-size: 1.6rem
   letter-spacing: .2rem
   padding: 5rem
-  background-color: white
+  background-color: $color-white
 
 .container
   background-color: #F7F7F7
@@ -22,7 +33,7 @@ body
 
 .header
   height: 95vh
-  background: linear-gradient(90.05deg, rgba(186, 133, 84, 0.7) 0.03%, rgba(1, 1, 1, 0.7) 99.94%), url("../img/header-beckground.jpg") center / cover no-repeat
+  background: linear-gradient(90.05deg, rgba($color-brown-light, 0.7) 0.03%, rgba($color-black, 0.7) 99.94%), url("../img/header-beckground.jpg") center / cover no-repeat
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%)
   position: relative
   //clip-path: polygon(0 30%, 50% 30%, 50% 0, 100% 50%, 50% 100%, 50% 80%, 0 80%) Стрелка
@@ -40,7 +51,7 @@ body
     width: 100%
     text-align: center
 .title-first
-  color: #FFFFFF
+  color: $color-white
   &__main
     display: block
     letter-spacing: 1rem
@@ -69,27 +80,27 @@ body
 .btn
   &:link, &:visited
     text-decoration: none
-    color: #777777
+    color: $color-gray
     text-transform: uppercase
     padding: 1.5rem 4rem
     border-radius: 50px
-    background: #FFFFFF
+    background: $color-white
     display: inline-block
     transition: all .5s
     position: relative
     font-size: 2rem
     &:hover
       transform: translateY(-4px)
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8)
+      box-shadow: $box-shadow
       &::after
         opacity: 0
         transform: scaleX(1.5) scaleY(1.7)
     &:active
       transform: translateY(-2px)
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1)
+      box-shadow: $box-shadow
   &::after
     content: ""
-    background: white
+    background: $color-white
     width: 100%
     height: 100%
     border-radius: 5rem
@@ -141,7 +152,4 @@ body
   100%
     opacity: 1
     transform: translateX(0px)
-
-
-
 
