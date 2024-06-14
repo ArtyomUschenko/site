@@ -5,8 +5,11 @@ $color-black: #000000
 $color-white: #FAFAFA
 $box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3)
 
-
-
+@mixin style-link
+  text-decoration: none
+  color: $color-gray
+  text-transform: uppercase
+  display: inline-block
 
 
 *, ::after, ::before
@@ -79,24 +82,21 @@ body
     margin-bottom: 6.5rem
 .btn
   &:link, &:visited
-    text-decoration: none
-    color: $color-gray
-    text-transform: uppercase
+    @include style-link
     padding: 1.5rem 4rem
     border-radius: 50px
     background: $color-white
-    display: inline-block
     transition: all .5s
     position: relative
     font-size: 2rem
     &:hover
-      transform: translateY(-4px)
+      transform: translateY(-0.4rem)
       box-shadow: $box-shadow
       &::after
         opacity: 0
         transform: scaleX(1.5) scaleY(1.7)
     &:active
-      transform: translateY(-2px)
+      transform: translateY(-0.2rem)
       box-shadow: $box-shadow
   &::after
     content: ""
@@ -125,7 +125,7 @@ body
 
   100%
     opacity: 1
-    transform: translateY(0px)
+    transform: translateY(0)
 
 
 @keyframes leftToRight
@@ -138,7 +138,7 @@ body
 
   100%
     opacity: 1
-    transform: translateX(0px)
+    transform: translateX(0)
 
 
 @keyframes RightToLeft
@@ -151,5 +151,5 @@ body
 
   100%
     opacity: 1
-    transform: translateX(0px)
+    transform: translateX(0)
 
