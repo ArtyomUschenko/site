@@ -1,0 +1,20 @@
+//Это компонент текстовой кнопки
+.btn-text
+  &:link, &:visited
+    font-weight: 700
+    line-height: .2rem
+    font-size: $font-size-paragraph-16
+    color: $color-brown-light
+    text-decoration: none
+    padding: 1rem
+    border-bottom: .1rem solid $color-brown-light
+    display: inline-block
+    transition: all .5s
+
+  &:hover
+    background-color: $color-brown-light
+    color: $color-white
+    box-shadow: $box-shadow
+    transform: translateY(-.2rem)
+  &:active
+    transform: translateY(0rem)
