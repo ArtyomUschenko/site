@@ -1,0 +1,14 @@
+{
+  "name": "tours",
+  "version": "1.0.1",
+  "description": "My project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scr/saas/style.sass scr/css/test.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
