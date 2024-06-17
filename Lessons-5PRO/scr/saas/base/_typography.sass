@@ -30,5 +30,38 @@ body
   font-family: "Roboto", sans-serif
   font-weight: 300
   color: $color-gray
-  font-size: 1.6rem
+  font-size: $font-size-paragraph-16
   letter-spacing: .2rem
+
+.title-secondary
+  text-align: center
+  display: inline-block
+  font-size: $font-size-paragraph-h
+  letter-spacing: 1rem
+  text-transform: uppercase
+  font-weight: 800
+  background: linear-gradient(90.05deg, rgba($color-brown-light, 0.7) 0.03%, rgba($color-brown-dark, 0.7) 99.94%)
+  -webkit-background-clip: text
+  //padding: 15px
+  //border: 10px dashed red
+  color: transparent
+  transition: all .4s
+  backface-visibility: hidden
+  &:hover
+    transform: skewY(2deg) skewX(15deg) scale(1.1)
+    text-shadow: $h2-shadow
+
+.title-third
+  font-size: $font-size-paragraph-h3
+  font-weight: 700
+  letter-spacing: .2rem
+  color: $color-gray
+  text-transform: uppercase
+
+.paragraph
+  font-size: $font-size-paragraph-16
+  letter-spacing: .2rem
+  font-weight: 400
+  color: $color-gray
+  line-height: 140%
+
